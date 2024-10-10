@@ -4,6 +4,10 @@
 
 **Bitcorn Hole** is a physical hardware game where players instantly receive bitcoin each time they score points. Beanbags are tossed into the cornhole set, which detects them using microcontrollers with time-of-flight sensors. Each time a player scores, they get paid sats **instantly** to their Lightning Address! ⚡
 
+## Live Demo
+
+To see how the game works in action, check out [this demo on Twitter](https://x.com/D_plus__plus/status/1807889900093821104).
+
 ## What You’ll Need
 
 To build your own Bitcorn Hole setup, you’ll need the following:
@@ -28,7 +32,4 @@ There are three main code files in this repository:
 3. **Microcontroller Code**: This is the code that runs on the microcontrollers, interfacing with the TOF sensors to detect when a beanbag is scored.  
    [View Microcontroller Code](#link-to-microcontroller-code)
 
-## Live Demo
 
-To see how the game works in action, check out this demo on Twitter:  
-[Watch the Bitcorn Hole Demo on Twitter](https://x.com/D_plus__plus/status/1807889900093821104)
