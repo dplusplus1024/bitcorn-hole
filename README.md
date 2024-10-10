@@ -19,19 +19,20 @@ To build your own Bitcorn Hole setup, you’ll need the following:
 - Wires and cables
 - Battery packs or AC adapters
 - DIY enclosures -
-  These are to be placed under each cornhole board for beanbag detection and housing of the microcontrollers and sensors.
+  These are to be placed under each cornhole board for beanbag detection and housing of the microcontrollers & sensors
+- Computer to run the user-facing webpage
 
 ## Code and Setup
 
 There are three main code files in this repository:
 
-1. **API to Pay Sats**: This handles the instant payments to players' Lightning Addresses. You can substitute your own API endpoint, and either run your own LND node or use a service like Lightspark or ZBD.  
-   [View API Code](#link-to-api-code)
-
-2. **Frontend Webpage**: This displays the game interface and real-time scoring updates.  
+1. **Frontend Webpage**: This displays the game interface and real-time scoring updates.  
    [View the Frontend Code](#link-to-frontend-code) | [View Screenshot](#link-to-screenshot)
 
-3. **Microcontroller Code**: This is the code that runs on the microcontrollers, interfacing with the TOF sensors to detect when a beanbag is scored.  
+2. **Microcontroller Code**: This is the code that runs on the microcontrollers, interfacing with the ToF sensors to detect when a beanbag is scored.  
    [View Microcontroller Code](#link-to-microcontroller-code)
+
+3. **API to Pay Sats**: This handles the instant payments to players' Lightning Addresses. You can substitute your own API endpoint, and either run your own LND node or use a service like Lightspark or ZBD.  
+   [View API Code](#link-to-api-code)
 
 
