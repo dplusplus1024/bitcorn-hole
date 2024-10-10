@@ -1,19 +1,19 @@
 ![image](https://github.com/user-attachments/assets/6203ecbb-de3d-4308-81ec-74ea63075224)
 
-# Bitcorn Hole 🏆🌽⚡
+# Bitcorn Hole 🌽🕳️
 
-**Bitcorn Hole** is my first hardware game and was a hit last year at the Unconfiscatable conference! In this game, players instantly receive bitcoin sats via Lightning Addresses each time they score points. Now, I'm excited to refactor the project, open-source it, and take Bitcorn Hole on the road to host tournament brackets at conferences worldwide.
+**Bitcorn Hole** is my first hardware game and was a hit last year at the Unconfiscatable conference! In this game, players instantly receive bitcoin sats via Lightning Addresses each time they score points.
 
 ## How it Works
 
-Players toss beanbags into the cornhole set, and the game keeps track of their scores using two Time-of-Flight (TOF) sensors. Each time a player scores, their Lightning Address is paid instantly with sats, offering a fun, interactive way to combine gaming and bitcoin!
+Players toss beanbags into the cornhole set, and the game detects the bags using two Time-of-Flight (ToF) sensors. Each time a player scores, their Lightning Address is paid instantly with sats!
 
 ## What You’ll Need
 
 To build your own Bitcorn Hole setup, you’ll need the following:
 
 - Cornhole set (2 boards)
-- 2x Time-of-Flight (TOF) sensors
+- 2x Time-of-Flight (ToF) sensors
 - 2x Microcontrollers (e.g., ESP32)
 - Cables
 - Battery packs or AC adapters
@@ -35,4 +35,4 @@ There are three main code files in this repository:
 ## How to Play
 
 To see how the game works in action, check out a demo on Twitter!  
-[Watch the Bitcorn Hole Demo on Twitter](#link-to-twitter)
+[Watch the Bitcorn Hole Demo on Twitter](https://x.com/D_plus__plus/status/1807889900093821104)
