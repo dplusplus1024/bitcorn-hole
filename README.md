@@ -19,7 +19,7 @@ To build your own Bitcorn Hole setup, you’ll need the following:
 - [Jumper wires](https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTJQZRD) and USB-C cables
 - [Battery packs](https://www.amazon.com/gp/product/B08LH26PFT) or AC adapters
 - DIY enclosures —
-  These are placed under each cornhole board to detect beanbags and house the microcontrollers and sensors
+  These are placed under each cornhole board to detect beanbags and house the sensors
 - A computer to run the user-facing webpage
 
 \* When using this particular microcontroller/sensor combo, qwiic cables may not work (unless there’s a workaround I'm missing). Instead, you'll need individual wires, which require soldering. Massive thanks to [Dani Go](https://www.youtube.com/@bitcoineando) for her help with this part!
