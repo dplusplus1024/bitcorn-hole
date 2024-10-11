@@ -22,7 +22,7 @@ To build your own Bitcorn Hole setup, you’ll need the following:
   These are placed under each cornhole board to detect beanbags and house the microcontrollers and sensors
 - A computer to run the user-facing webpage
 
-\* When using this particular microcontroller/sensor combo, qwiic cables may not work (unless there’s a workaround I'm missing). Instead, you'll need individual wires, which require soldering. Special thanks to [Dani Go](https://www.youtube.com/@bitcoineando) for her help with this!
+\* When using this particular microcontroller/sensor combo, qwiic cables may not work (unless there’s a workaround I'm missing). Instead, you'll need individual wires, which require soldering. Thank you, [Dani Go](https://www.youtube.com/@bitcoineando), for your help with this!
 
 ## Code and Setup
 
