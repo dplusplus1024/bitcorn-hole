@@ -16,7 +16,7 @@ To build your own Bitcorn Hole setup, you’ll need the following:
 - 2x [Microcontrollers](https://www.amazon.com/dp/B0C8V88Z9D?ref=ppx_pop_mob_ap_share) —
   I used the Arduino UNO R4, but you could refactor the code to work on ESP32
 - 2x [Time-of-Flight (ToF) sensors](https://a.co/d/5bQHzve)\*
-- Wires and cables
+- [Jumper wires](https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTJQZRD/ref=sr_1_5) and USB-C cables
 - Battery packs or AC adapters
 - DIY enclosures —
   These are placed under each cornhole board to detect beanbags and house the microcontrollers and sensors
