@@ -12,12 +12,12 @@ To see how the game works in action, check out [this demo on Twitter](https://x.
 
 To build your own Bitcorn Hole setup, you’ll need the following:
 
-- [Cornhole set](https://www.amazon.com/dp/B07S1PYYTV?ref=ppx_pop_mob_ap_share) (2 boards)
-- 2x [Microcontrollers](https://www.amazon.com/dp/B0C8V88Z9D?ref=ppx_pop_mob_ap_share) —
+- [Cornhole set](https://www.amazon.com/dp/B07S1PYYTV) (2 boards)
+- 2x [Microcontrollers](https://www.amazon.com/dp/B0C8V88Z9D) —
   I used the Arduino UNO R4, but you could refactor the code to work on ESP32
 - 2x [Time-of-Flight (ToF) sensors](https://a.co/d/5bQHzve)\*
-- [Jumper wires](https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTJQZRD/ref=sr_1_5) and USB-C cables
-- Battery packs or AC adapters
+- [Jumper wires](https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTJQZRD) and USB-C cables
+- [Battery packs](https://www.amazon.com/gp/product/B08LH26PFT) or AC adapters
 - DIY enclosures —
   These are placed under each cornhole board to detect beanbags and house the microcontrollers and sensors
 - A computer to run the user-facing webpage
