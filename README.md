@@ -12,7 +12,7 @@ To see how the game works in action, check out [this demo on Twitter](https://x.
 
 To build your own Bitcorn Hole setup, you’ll need the following:
 
-- [Cornhole set](https://www.amazon.com/dp/B07S1PYYTV) - comes with two boards
+- [Cornhole set](https://www.amazon.com/dp/B07S1PYYTV) — comes with two boards
 - 2x [Microcontrollers](https://www.amazon.com/dp/B0C8V88Z9D) —
   I used the Arduino UNO R4, but you could refactor the code to work on ESP32
 - 2x [Time-of-Flight (ToF) sensors](https://a.co/d/5bQHzve)\*
