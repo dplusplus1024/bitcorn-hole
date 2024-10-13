@@ -26,7 +26,8 @@ void setup() {
 
   // Initialize the VL53L5CX sensor on Wire1 with the default I2C address 0x29
   if (!mySensor.begin(0x29, Wire1)) { // Use Wire1 for Qwiic connections
-  // Use the following line instead if you're using a soldered connection or a microcontroller that doesn't get confused about Quicc cables lol
+  // Use the following line instead if you're using a soldered connectio
+  // (or a microcontroller that doesn't get confused about Quicc cables lol)
   // if (!mySensor.begin()) {
     Serial.println("Failed to communicate with VL53L5CX on Wire1. Check wiring.");
     while (1); // Halt the program if sensor initialization fails
