@@ -29,7 +29,7 @@ Massive thanks to [Dani Go](https://www.youtube.com/@bitcoineando) for her solde
 There are three main code files in this repository:
 
 1. **Frontend Webpage**: This displays the game interface and real-time scoring updates.  
-   [View the Frontend Code](#link-to-frontend-code) | [View Screenshot](#link-to-screenshot)
+   [View the Frontend Code](#link-to-frontend-code) | [View Screenshot](https://i.imgur.com/UbTRA8j.png)
 
 2. **Microcontroller Code**: This is the code that runs on the microcontrollers, hosting a web server and interfacing with the ToF sensor to detect when a beanbag is present.  
    [View Microcontroller Code](https://github.com/dplusplus1024/bitcorn-hole/blob/main/microcontroller_webserver_with_tof.ino)
