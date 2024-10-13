@@ -14,7 +14,6 @@ int status = WL_IDLE_STATUS;
 WiFiServer server(80);
 
 void setup() {
-  // Initialize serial communication for debugging
   Serial.begin(9600);
   while (!Serial) {
     ; // Wait for serial port to connect (only needed for native USB)
