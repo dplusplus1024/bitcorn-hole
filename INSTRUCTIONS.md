@@ -22,4 +22,4 @@ Landing a beanbag in the hole earns 1 point; landing on the board earns no point
 ## Disclaimer
 These rules are subject to change, and this software is experimental. While rare, false negatives or false positives may occur during gameplay.
 
-**Enjoy the game and may the best player win!**
+**Enjoy the game and may the best player win!** 🌽
