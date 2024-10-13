@@ -39,9 +39,9 @@ There are three main code files in this repository:
 
 ## Gameplay Instructions
 
-For detailed gameplay instructions, please visit the [Instruction Sheet](instructions.md).
+For detailed gameplay instructions, visit the [Instruction Sheet](instructions.md).
 
 ## Disclaimer
 
-This is experimental software. Use at your own risk.
+This is experimental software. Use at your own risk. 🌽
 
