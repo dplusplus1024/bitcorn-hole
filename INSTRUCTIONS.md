@@ -20,6 +20,6 @@ Landing a beanbag in the hole earns 1 point; landing on the board earns no point
 - The player with the higher score at the end wins, but both players enjoy bitcoin rewards for each point scored.
 
 ## Disclaimer
-The rules of **Bitcorn Hole** are determined by D++. They are subject to change as the software is experimental. While rare, false negatives or false positives may occur during gameplay.
+These rules are subject to change, and this software is experimental. While rare, false negatives or false positives may occur during gameplay.
 
 **Enjoy the game and may the best player win!**
