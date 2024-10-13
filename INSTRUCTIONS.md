@@ -13,7 +13,7 @@ Determine the starting player by selecting either:
 ## Gameplay
 Players alternate throws, with one bean bag per turn, aiming for the hole on the board opposite them.
 
-## Scoring:
+## Scoring
 Landing a beanbag in the hole earns 1 point; landing on the board earns no points. 
 
 ## Winning the Game
