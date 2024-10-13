@@ -39,7 +39,7 @@ There are three main code files in this repository:
 
 ## Gameplay Instructions
 
-For detailed gameplay instructions, visit the [Instruction Sheet](instructions.md).
+For detailed gameplay instructions, view the [Instruction Sheet](instructions.md).
 
 ## Disclaimer
 
