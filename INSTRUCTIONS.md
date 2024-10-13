@@ -12,7 +12,7 @@ Determine the starting player by selecting either:
 
 ## Gameplay
 - Players alternate throws, with one bean bag per turn, aiming for the hole on the board opposite them.
-- The bean bag must be removed from the hole after each point is scored before the game can continue.
+- After each point is scored, the bean bag must be taken out of the hole for the game to proceed.
 
 ## Scoring
 Landing a bean bag in the hole earns 1 point; landing on the board earns no points. 
