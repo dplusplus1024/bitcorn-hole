@@ -2,7 +2,7 @@
 
 # Bitcorn Hole 🌽🕳️
 
-**Bitcorn Hole** is a physical hardware game where players earn bitcoin every time they score a point! Beanbags are tossed into the cornhole set and detected using microcontrollers with time-of-flight sensors. Each point scored triggers an **instant** payment of sats to the player’s Lightning Address! ⚡
+**Bitcorn Hole** is a physical hardware game where players earn bitcoin every time they score a point! Bean bags are tossed into the cornhole set and detected using microcontrollers with time-of-flight sensors. Each point scored triggers an **instant** payment of sats to the player’s Lightning Address! ⚡
 
 ## Live Demo
 
@@ -19,7 +19,7 @@ To build your own Bitcorn Hole setup, you’ll need the following:
 - [Jumper wires](https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTJQZRD) and USB-C cables
 - [Battery packs](https://www.amazon.com/gp/product/B08LH26PFT) or AC adapters
 - DIY enclosures —
-  These are placed under each cornhole board to house the sensors and detect beanbags
+  These are placed under each cornhole board to house the sensors and detect bean bags
 - A computer with speakers to run the user-facing webpage
 
 Massive thanks to [Dani Go](https://www.youtube.com/@bitcoineando) for her soldering help!
@@ -31,7 +31,7 @@ There are three main code files in this repository:
 1. **Frontend Webpage**: This displays the game interface and real-time scoring updates.  
    [Frontend Code - Coming Soon](#link-to-frontend-code) | [View Screenshot](https://github.com/dplusplus1024/bitcorn-hole/blob/main/screenshot.png)
 
-2. **Microcontroller Code**: This code runs on each microcontroller, hosting a web server and interfacing with the ToF sensor to detect when a beanbag is present.  
+2. **Microcontroller Code**: This code runs on each microcontroller, hosting a web server and interfacing with the ToF sensor to detect when a bean bag is present.  
    [View Microcontroller Code](https://github.com/dplusplus1024/bitcorn-hole/blob/main/microcontroller_webserver_with_tof.ino)
 
 5. **API to Pay Sats**: This handles the instant payments to players' Lightning Addresses. You can substitute your own API endpoint, and either run your own LND node or use a custodial API like ZBD.  
