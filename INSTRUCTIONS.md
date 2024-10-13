@@ -1,9 +1,9 @@
 # Bitcorn Hole Gameplay Instructions 🌽🕳️
-This is Bitcorn Hole! Normal Cornhole rules do not apply. 🤠
+This is **Bitcorn Hole**! Normal Cornhole rules do not apply. 🤠
 
 ## Setup
 - **Players:** Red Player and Blue Player stand opposite their respective colored boards.
-- **Bitcoin:** Ensure both players have their Lightning Adresses ready.
+- **Bitcoin:** Both players input their Lightning Adresses into the game startup screen.
 
 ## Who Goes First?
 Determine the starting player by selecting either:
