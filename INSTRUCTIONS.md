@@ -19,7 +19,7 @@ Landing a bean bag in the hole earns 1 point; landing on the board earns no poin
 
 ## Winning the Game
 - The game ends once both players have collectively reached a predetermined total score (e.g., 7 points).
-- The player with the highest score at the end wins, but both players enjoy instant bitcoin payments for each point scored.
+- The player with the highest score at the end wins, but both players enjoy instant bitcoin payments for each point.
 
 ## Disclaimer
 These rules are subject to change, and this software is experimental. While rare, false negatives or false positives may occur during gameplay.
