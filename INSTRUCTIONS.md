@@ -6,19 +6,20 @@
 - **Players:** Red Player and Blue Player stand opposite their respective colored boards.
 - **Bitcoin:** Ensure both players have their Lightning Network addresses ready.
 
-## Decide Who Goes First:
-- Determine the starting player by seeing who arrived first at the event or who traveled the farthest distance to attend.
+## Who Goes First?
+- Determine the starting player by selecting either:
+    - who arrived first at the event.
+    - Who traveled the farthest distance to attend.
 
 ## Gameplay:
-- Players take turns throwing beanbags aiming to land them in the opponent's hole.
+- Players alternate throws, with one bean bag per turn, aiming for the hole on the board opposite them.
 
 ## Scoring:
-- **In the Hole:** 1 point per beanbag.
-- **On the Board:** 0 points.
+- Landing a beanbag in the hole earns 1 point; landing on the board earns no points. 
 
 ## Winning the Game:
 - The game ends when a predetermined total score (e.g., 7 points) is reached. *(This is an example; feel free to adjust the total points based on your group's preference.)*
-- The player with the higher score at the end wins and receives Bitcoin rewards for each point scored.
+- The player with the higher score at the end wins, but both players enjoy bitcoin rewards for each point scored.
 
 ## Disclaimer
 The rules of **Bitcorn Hole** are determined by D++. They are subject to change as the software is experimental. While rare, false negatives or false positives may occur during gameplay.
