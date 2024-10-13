@@ -11,10 +11,11 @@ Determine the starting player by selecting either:
 - The player who traveled the farthest distance to attend.
 
 ## Gameplay
-Players alternate throws, with one bean bag per turn, aiming for the hole on the board opposite them.
+- Players alternate throws, with one bean bag per turn, aiming for the hole on the board opposite them.
+- The bean bag must be removed from the hole immediately after each point is scored to continue gameplay.
 
 ## Scoring
-Landing a beanbag in the hole earns 1 point; landing on the board earns no points. 
+Landing a bean bag in the hole earns 1 point; landing on the board earns no points. 
 
 ## Winning the Game
 - The game ends once both players have collectively reached a predetermined total score (e.g., 7 points).
