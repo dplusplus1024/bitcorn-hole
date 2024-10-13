@@ -37,4 +37,11 @@ There are three main code files in this repository:
 5. **API to Pay Sats**: This handles the instant payments to players' Lightning Addresses. You can substitute your own API endpoint, and either run your own LND node or use a custodial API like ZBD.  
    [API Code - Coming Soon](#link-to-api-code)
 
+## Gameplay Instructions
+
+For detailed gameplay instructions, please visit the [Instruction Sheet](instructions.md).
+
+## Disclaimer
+
+This is experimental software. Use at your own risk.
 
