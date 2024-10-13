@@ -5,166 +5,174 @@
 WiFiClient client;
 SparkFun_VL53L5CX mySensor; 
 
-char ssid[] = "your network name";
-char pass[] = "your network password";
+// WiFi credentials - update these!
+char ssid[] = "Your network name";
+char pass[] = "Your network password";
 
 int led =  LED_BUILTIN; 
 int status = WL_IDLE_STATUS;
 WiFiServer server(80);
 
 void setup() {
-  //Initialize serial and wait for port to open:
+  // Initialize serial communication for debugging
   Serial.begin(9600);
   while (!Serial) {
-    ; // wait for serial port to connect. Needed for native USB port only
+    ; // Wait for serial port to connect (only needed for native USB)
   }
   Serial.println("********* Starting Program ********* ");
 
-  // Initialize the I2C communication
-  Wire.begin();
-  
-  // Try to initialize the sensor
-  if (!mySensor.begin()) {
-    Serial.println("Failed to communicate with VL53L5CX. Check wiring.");
-    while (1); // If failed, halt the program
+  // Initialize I2C communication
+  Wire.begin();   // Initialize default I2C bus (Wire) - Used for soldered connections; I am not using this 
+  Wire1.begin();  // Initialize second I2C bus (Wire1) - Needed for Arduino Uno R4 with Qwicc cables
+
+  // Initialize the VL53L5CX sensor on Wire1 with the default I2C address 0x29
+  if (!mySensor.begin(0x29, Wire1)) { // Use Wire1 for Qwiic connections
+  // Use the following line instead if you're using a soldered connection
+  // if (!mySensor.begin()) {
+    Serial.println("Failed to communicate with VL53L5CX on Wire1. Check wiring.");
+    while (1); // Halt the program if sensor initialization fails
   }
 
-  Serial.println("VL53L5CX detected!");
+  Serial.println("VL53L5CX detected on Wire1!");
   
-  mySensor.setResolution(8 * 8); // Set resolution to 8x8
+  mySensor.setResolution(8 * 8); // Set the sensor resolution to 8x8
   mySensor.startRanging(); // Start measuring distance
 
-  // set the LED pin mode
   pinMode(led, OUTPUT);      
-  // check for the WiFi module:
+
+  // Check for the WiFi module
   if (WiFi.status() == WL_NO_MODULE) {
     Serial.println("Communication with WiFi module failed!");
-    // don't continue
-    while (true);
+    while (true); // Halt the program if WiFi module is not found
   }
-  // attempt to connect to WiFi network:
+
+  // Attempt to connect to the WiFi network
   while (status != WL_CONNECTED) {
-    Serial.print("Attempting to connect to SSID: ");
+    Serial.print("Connecting to SSID: ");
     Serial.println(ssid);
     status = WiFi.begin(ssid, pass);  
-    // wait 10 seconds for connection:
-    delay(10000);
+    delay(10000); // Wait 10 seconds for connection
   }
-  // start the web server on port 80
+
+  // Start the web server on port 80
   server.begin();
-  // you're connected now, so print out the status
   printWiFiStatus();
 }
 
 void loop() {
-  // compare the previous status to the current status
+  // Monitor WiFi status changes
   if (status != WiFi.status()) {
-    // it has changed update the variable
     status = WiFi.status();
     if (status == WL_AP_CONNECTED) {
-      // a device has connected to the AP
       Serial.println("Device connected to AP");
     } else {
-      // a device has disconnected from the AP, and we are back in listening mode
       Serial.println("Device disconnected from AP");
     }
   }
 
-  client = server.available();   // listen for incoming clients
+  // Listen for incoming clients
+  client = server.available(); 
   unsigned long clientConnectedTime = millis();
 
-  if (client) {                             // if you get a client,
-    // Serial.println("new client");        // print a message out the serial port
-    String currentLine = "";                // make a String to hold incoming data from the client
-    while (client.connected()) {            // loop while the client's connected
-      if (millis() - clientConnectedTime > 1000) { // Check if the client has been connected for more than 2 seconds
-        client.stop(); // Forcefully close the connection
-        break; // Exit the loop
+  if (client) { 
+    String currentLine = ""; // Make a String to hold incoming data from the client
+
+    while (client.connected()) { // Loop while the client's connected
+
+      // Close the connection if they've been connected for more than 1 second
+      if (millis() - clientConnectedTime > 1000) {
+        client.stop();
+        break; 
       }
 
-      delayMicroseconds(10);                // This is required for the Arduino Nano RP2040 Connect - otherwise it will loop so fast that SPI will never be served.
-      if (client.available()) {             // if there's bytes to read from the client,
-        char c = client.read();             // read a byte, then
-        //Serial.write(c);                    // print it out to the serial monitor
-        if (c == '\n') {                    // if the byte is a newline character
-          // if the current line is blank, you got two newline characters in a row.
-          // that's the end of the client HTTP request, so send a response:
+      delayMicroseconds(10); // Prevent the loop from running too fast
+
+      if (client.available()) { // If there's bytes to read from the client,
+        char c = client.read(); // Read a byte
+        // Serial.write(c); // Uncomment to print incoming characters to Serial
+
+        if (c == '\n') { // If the byte is a newline character
           if (currentLine.length() == 0) {
-            // this is the response for the website but i moved it to the specific endpoints
-            // break out of the while loop:
+            // End of HTTP request, send a response
             break;
-          }
-          else {      // if you got a newline, then clear currentLine:
+          } else { // If you got a newline, then clear currentLine:
             currentLine = "";
           }
         }
-        else if (c != '\r') {    // if you got anything else but a carriage return character,
-          currentLine += c;      // add it to the end of the currentLine
+        else if (c != '\r') { // If you got anything else but a carriage return character,
+          currentLine += c; // Add it to the end of the currentLine
         }
-        // Check to see if the client request was "GET /H" or "GET /L":
+
+        // Check to see if the client request was "GET /H", "GET /L", or "GET /readSensor"
+
         if (currentLine.endsWith("GET /H")) {
+          Serial.println("Received /H request.");
           printHeaders();
-          client.println("We're turning it on bbgirl!!");
-          // The HTTP response ends with another blank line:
-          client.println();
-          digitalWrite(led, HIGH);               // GET /H turns the LED on
+          client.println("{\"status\":\"on\"}");
+          digitalWrite(led, HIGH); 
+          Serial.println("LED turned on.");
         }
+
         if (currentLine.endsWith("GET /L")) {
+          Serial.println("Received /L request.");
           printHeaders();
-          client.println("Lights off bb!!!");
-          // The HTTP response ends with another blank line:
-          client.println();
-          digitalWrite(led, LOW);                // GET /L turns the LED off
+          client.println("{\"status\":\"off\"}");
+          digitalWrite(led, LOW); 
+          Serial.println("LED turned off.");
         }
+
         if (currentLine.endsWith("GET /readSensor")) {
-          printHeaders();
-          client.print(checkSensor());
+          printHeaders(); 
+          int distances[24];
+          readSensor(distances); 
+
+          client.print("[");
+          for (int i = 0; i < 24; i++) {
+            client.print(distances[i]); 
+
+            if (i < 23) { 
+              client.print(",");
+            }
+          }
+          client.print("]");
         }
       }
     }
-    delay(1);
-    // close the connection:
+    delay(1); // Short delay to ensure data is sent
     client.stop();
-    // Serial.println("client disconnected");
   }
 }
 
 void printWiFiStatus() {
-  // print the SSID of the network you're attached to:
-  Serial.print("SSID: ");
-  Serial.println(WiFi.SSID());
-  // print your WiFi shield's IP address:
+  Serial.println("Connected to WiFi!");
   IPAddress ip = WiFi.localIP();
-  Serial.print("IP Address: ");
-  Serial.println(ip);
-  // print where to go in a browser:
-  Serial.print("To see this page in action, open a browser to http://");
-  Serial.println(ip);
-  Serial.println(checkSensor());
+  Serial.print("Your API endpoint is: http://");
+  Serial.print(ip);
+  Serial.println("/readSensor");
 }
 
-int checkSensor() {
-  int distance;
-  
-  if (mySensor.isDataReady()) { // Check if data is ready
-    VL53L5CX_ResultsData results; // Create an object to hold the data
-    mySensor.getRangingData(&results); // Get the data from the sensor
-    
-    // Print the distance for the first zone (zone 0)
-    distance = results.distance_mm[0] / 10;
-    Serial.print("Distance: ");
-    Serial.print(distance);
-    Serial.println(" cm");
+void readSensor(int distances[24]) {
+  VL53L5CX_ResultsData results;
+
+  for (int i = 0; i < 24; i++) {
+    distances[i] = -1;
   }
 
-  return distance;
+  if (mySensor.isDataReady()) { 
+    mySensor.getRangingData(&results); 
+
+    // Key zones you want to track, don't need the entire grid of 64 data points
+    int keyZones[24] = {0, 3, 7, 8, 12, 15, 16, 19, 23, 24, 28, 31, 32, 35, 39, 40, 44, 47, 48, 51, 55, 56, 60, 63};
+
+    for (int i = 0; i < 24; i++) {
+      distances[i] = results.distance_mm[keyZones[i]] / 10; // Convert to cm
+    }
+  }
 }
 
 void printHeaders() {
-  // HTTP headers always start with a response code (e.g. HTTP/1.1 200 OK)
-  // and a content-type so the client knows what's coming, then a blank line:
   client.println("HTTP/1.1 200 OK");
-  client.println("Content-type:text/html");
-  client.println("Access-Control-Allow-Origin: *"); // This allows any origin
+  client.println("Content-type:application/json");
+  client.println("Access-Control-Allow-Origin: *"); // Allows any origin
   client.println();
 }
