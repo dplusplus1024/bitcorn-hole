@@ -1,6 +1,4 @@
-# Gameplay Instructions 🌽🕳️
-
-## How to Play
+# Bitcorn Hole Gameplay Instructions 🌽🕳️
 
 ## Setup:
 - **Players:** Red Player and Blue Player stand opposite their respective colored boards.
@@ -8,8 +6,8 @@
 
 ## Who Goes First?
 - Determine the starting player by selecting either:
-    - who arrived first at the event.
-    - Who traveled the farthest distance to attend.
+    - The player who arrived first at the event.
+    - The player who traveled the farthest distance to attend.
 
 ## Gameplay:
 - Players alternate throws, with one bean bag per turn, aiming for the hole on the board opposite them.
