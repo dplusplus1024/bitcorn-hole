@@ -1,5 +1,5 @@
 # Bitcorn Hole Gameplay Instructions 🌽🕳️
-This is Bitcorn Hole. Normal Cornhole rules do not apply.
+This is Bitcorn Hole! Normal Cornhole rules do not apply. 🤠
 
 ## Setup
 - **Players:** Red Player and Blue Player stand opposite their respective colored boards.
