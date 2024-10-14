@@ -1,4 +1,4 @@
-# Bitcorn Hole Around the World
+# Bitcorn Hole Around the World 🌎
 
 If you've played Bitcorn Hole in your community, add your details here, along with a link to an image, tweet, or any relevant media! Simply edit this page and add your entry below.
 
