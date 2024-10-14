@@ -8,10 +8,9 @@ A Lightning Address looks like an email address (e.g. you@domain.com) and enable
 - If you don't already have one, continue reading to get started.
 
 ## Option 1: Strike
-1. Download [Strike](https://strike.me/): Strike is available on both iOS and Android. Download the app from the App Store or Google Play.
+1. Download [Strike](https://strike.me/). Strike is available on both iOS and Android. Download the app from the App Store or Google Play.
 
-2. Create an Account
-Sign up by providing your phone number, email address, and some personal information for verification.
+2. Create an Account. Sign up by providing your phone number, email address, and some personal information for verification.
 
 3. Tap ther user icon (located in the upper right area of the screen) to locate your Lightning Address, which is automatically assigned to you in the format username@strike.me.
 
