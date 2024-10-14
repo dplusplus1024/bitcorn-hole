@@ -1,4 +1,4 @@
-#Lightning Address
+# Lightning Address
 
 A Lightning Address looks like an email address and enables you to send and receive bitcoin payments instantly through the Lightning Network.
 
