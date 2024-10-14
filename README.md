@@ -5,7 +5,7 @@
 **Bitcorn Hole** is a physical hardware game where players earn bitcoin every time they score a point! Bean bags are tossed into the cornhole set and detected using microcontrollers with time-of-flight sensors. Each point scored triggers an **instant** payment of sats to the player’s Lightning Address! ⚡
 
 ## Live Demo
-See how the game works in action [here](https://x.com/D_plus__plus/status/1807889900093821104) and [here](https://x.com/D_plus__plus/status/1845504750739218734).
+See how the game works live in action [here](https://x.com/D_plus__plus/status/1807889900093821104) and [here](https://x.com/D_plus__plus/status/1845504750739218734).
 
 ## What You’ll Need
 
