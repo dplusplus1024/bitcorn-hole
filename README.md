@@ -42,7 +42,7 @@ For detailed gameplay instructions, view the [Instruction Sheet](INSTRUCTIONS.md
 
 ## Bitcorn Hole in Your Community
 
-Did you make a Bitcorn Hole set for your conference, community, or event? Brag about it [here](COMMUNITY.md)!
+Did you bring Bitcorn Hole to your conference, community, or event? Brag about it [here](COMMUNITY.md)!
 
 ## Disclaimer
 
