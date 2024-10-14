@@ -10,11 +10,15 @@ If you've played Bitcorn Hole in your community, add your details here, along wi
 
 - **SatsConf**  
 
+---
+
 ### How to Add Your Community or Event
 
 1. Fork this repository.
 2. Add your community, event, or group and a link to an image, tweet, or other media below the existing entries.
 3. Submit a pull request to have it added!
+
+---
 
 **Template for Adding Your Community or Event** (Copy and paste the template below):
 
