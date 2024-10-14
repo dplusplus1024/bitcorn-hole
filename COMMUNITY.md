@@ -6,9 +6,9 @@ If you've played Bitcorn Hole in your community, add your details here, along wi
 
 - **Unconfiscatable**  
 
-- **Santa Monica Peer to Pier**  
+- **Bitcoin Peer to Pier**  
 
-- **SatsConf**  
+- **Satsconf**  
 
 ---
 
