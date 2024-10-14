@@ -23,9 +23,11 @@ A Lightning Address looks like an email address (e.g. you@domain.com) and enable
 
 1. Go to [coinos.io](https://coinos.io). Please note this is a PWA and not an app. You can add it to your Home Screen on iOS in Safari.
 
-2. Create an account. You don't need any personal identifiable information. 
+![image](https://github.com/user-attachments/assets/2e612a88-0216-436d-9216-75fee015f5b8)
 
-3. Tap the QR code by your username. Your Lightning Address will appear here in the format username@coinos.io.
+3. Create an account. You don't need any personal identifiable information. 
+
+4. Tap the QR code by your username. Your Lightning Address will appear here in the format username@coinos.io.
 
 ![image](https://github.com/user-attachments/assets/7e63b793-f610-4fa5-9d92-37c26f4f3190)
 
