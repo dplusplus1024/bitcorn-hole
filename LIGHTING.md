@@ -23,7 +23,7 @@ A Lightning Address looks like an email address (e.g. you@domain.com) and enable
 
 1. Go to [coinos.io](https://coinos.io). Please note this is a PWA and not an app. You can add it to your Home Screen on iOS in Safari.
 
-![image](https://github.com/user-attachments/assets/2e612a88-0216-436d-9216-75fee015f5b8)
+![image](https://github.com/user-attachments/assets/43c1898e-0faf-447c-9a3f-d7c5257361c0)
 
 3. Create an account. You don't need any personal identifiable information. 
 
