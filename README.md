@@ -40,6 +40,10 @@ There are three main code files in this repository:
 
 For detailed gameplay instructions, view the [Instruction Sheet](INSTRUCTIONS.md).
 
+## Bitcorn Hole in Your Community
+
+Did you make a set for your conference, community, or event? Brag about it [here](COMMUNITY.md)!
+
 ## Disclaimer
 
 This is experimental software. Use at your own risk. 🌽
