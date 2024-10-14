@@ -5,6 +5,10 @@ This is **Bitcorn Hole**! Normal Cornhole rules do not apply. 🤠
 - **Players:** The Red Player and Blue Player stand opposite their respective colored boards.
 - **Bitcoin:** Both players input their **Lightning Address** into the game startup screen.
 
+## Lightning Address
+
+Here's a [comprehensive guide](LIGHTNING.md) on how to get a Lightning Address.
+
 ## Who Goes First?
 Determine the starting player by selecting either:
 - The player who arrived first at the event.
