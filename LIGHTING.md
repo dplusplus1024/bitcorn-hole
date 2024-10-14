@@ -29,7 +29,7 @@ A Lightning Address looks like an email address (e.g. you@domain.com) and enable
 
 4. Tap the QR code by your username. Your Lightning Address will appear here in the format username@coinos.io.
 
-![image](https://github.com/user-attachments/assets/42142906-b06b-4cd1-8291-a6db8f30c969)
+![image](https://github.com/user-attachments/assets/d1a693ca-7738-494f-a848-0b1485d1d6e0)
 
 ## Pros and Cons 
 **Strike** offers push notifications and the option to buy bitcoin, but requires KYC verification. **Coinos** is faster to get started and doesn’t require KYC, but lacks the ability to buy bitcoin. **Coinos** is a [PWA](https://www.google.com/search?q=how+to+add+a+pwa+to+your+home+screen+safari) and not an app, but you can it to your Home Screen on iOS in Safari.
