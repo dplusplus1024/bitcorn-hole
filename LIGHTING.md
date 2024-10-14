@@ -11,7 +11,7 @@ A Lightning Address looks like an email address (e.g. you@domain.com) and enable
 
 1. Get [Strike](https://strike.me/). Strike is available on both iOS and Android. Download the app from the App Store or Google Play.
    
-![image](https://github.com/user-attachments/assets/4c6615be-645d-47b8-a473-3ecb85beb894)
+![image](https://github.com/user-attachments/assets/8b826ee1-c9d0-4f68-8ffc-4924b1b5aa91)
 
 3. Create an account. Sign up by providing your phone number, email address, and some personal information for verification.
 
@@ -23,7 +23,7 @@ A Lightning Address looks like an email address (e.g. you@domain.com) and enable
 
 1. Go to [coinos.io](https://coinos.io). Please note this is a PWA and not an app. You can add it to your Home Screen on iOS in Safari.
 
-![image](https://github.com/user-attachments/assets/846eb2ba-23b4-4d00-ae0d-ac1dc629b8f2)
+![image](https://github.com/user-attachments/assets/a4b06be0-2eb4-4859-80a0-0c9d66ec3d01)
 
 3. Create an account. You don't need any personal identifiable information. 
 
