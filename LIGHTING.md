@@ -22,4 +22,4 @@ A Lightning Address looks like an email address (e.g. you@domain.com) and enable
 ## Option 2: Coinos
 
 ## Pros and Cons 
-**Strike** offers push notifications and the option to buy bitcoin, but requires KYC verification. **Coinos** is faster to get started and doesn’t require KYC, but lacks push notifications and the ability to buy bitcoin.
+**Strike** offers push notifications and the option to buy bitcoin, but requires KYC verification. **Coinos** is faster to get started and doesn’t require KYC, but lacks the ability to buy bitcoin.
