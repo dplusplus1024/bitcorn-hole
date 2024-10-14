@@ -27,7 +27,7 @@ A Lightning Address looks like an email address (e.g. you@domain.com) and enable
 
 3. Create an account. You don't need any personal identifiable information. 
 
-4. Tap the QR code by your username. Your Lightning Address will appear here in the format username@coinos.io.
+4. Tap the QR code by your username. Your Lightning Address will then appear in the format username@coinos.io.
 
 ![image](https://github.com/user-attachments/assets/abbcfe5e-ca65-4b0e-8239-e6e76d9426c9)
 
