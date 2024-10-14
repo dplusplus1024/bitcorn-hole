@@ -8,9 +8,9 @@ A Lightning Address looks like an email address (e.g. you@domain.com) and enable
 - If you don't already have one, continue reading to get started.
 
 ## Option 1: Strike
-![image](https://github.com/user-attachments/assets/e0fd6b2b-a7d7-44d1-89f8-46c10d946347)
 
 1. Get [Strike](https://strike.me/). Strike is available on both iOS and Android. Download the app from the App Store or Google Play.
+![image](https://github.com/user-attachments/assets/e0fd6b2b-a7d7-44d1-89f8-46c10d946347)
 
 2. Create an account. Sign up by providing your phone number, email address, and some personal information for verification.
 
