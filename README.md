@@ -20,7 +20,7 @@ To build your own Bitcorn Hole setup, you’ll need the following:
 - [Battery packs](https://www.amazon.com/gp/product/B08LH26PFT) or AC adapters
 - DIY enclosures —
   These are placed under each cornhole board to house the sensors and detect bean bags
-- A computer with speakers to run the user-facing webpage
+- A computer with a screen and speakers to run game
 
 Massive thanks to [Dani Go](https://www.youtube.com/@bitcoineando) for her soldering help!
 
