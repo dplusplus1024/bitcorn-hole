@@ -18,7 +18,7 @@ To build your own Bitcorn Hole setup, you’ll need the following:
 - 2x [Time-of-flight (ToF) sensors](https://a.co/d/5bQHzve)
 - [Jumper wires](https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTJQZRD) and USB-C cables
 - [Battery packs](https://www.amazon.com/gp/product/B08LH26PFT) or AC adapters
-- DIY enclosures —
+- [DIY enclosures](ENCLOSURES.md) —
   These are placed under each cornhole board to house the sensors and detect bean bags
 - A computer with a screen and speakers to run game
 
