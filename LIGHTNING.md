@@ -23,7 +23,7 @@ A Lightning Address looks like an email address (e.g. you@domain.com) and enable
 
 1. Go to [coinos.io](https://coinos.io).
 
-![image](https://github.com/user-attachments/assets/d2300f40-b118-4c12-a75c-d41153165a90)
+![image](https://i.imgur.com/ijNGykF.png)
 
 3. Create an account. You don't need any personal identifiable information. 
 
