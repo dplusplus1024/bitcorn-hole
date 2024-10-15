@@ -11,7 +11,7 @@ A Lightning Address looks like an email address (e.g. you@domain.com) and enable
 
 1. Get [Strike](https://strike.me/). Strike is available on both iOS and Android. Download the app from the App Store or Google Play.
    
-![image](https://github.com/user-attachments/assets/b6d43e5c-0670-4673-85fe-8f2e809e62f3)
+![image](https://github.com/user-attachments/assets/0f7d1bb9-862e-44a1-afc0-adda67c82c9c)
 
 3. Create an account. Sign up by providing your phone number, email address, and some personal information for verification.
 
