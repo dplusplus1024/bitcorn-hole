@@ -17,7 +17,7 @@ A Lightning Address looks like an email address (e.g. you@domain.com) and enable
 
 4. Tap the user icon (located in the upper right area of the screen) to locate your Lightning Address, which is automatically assigned to you in the format username@strike.me.
    
-![image](https://github.com/user-attachments/assets/38fec5c4-b893-47b4-9a1a-033ed8888e21)
+![image](https://i.imgur.com/3u4txFL.png)
 
 ## Option 2: Coinos
 
