@@ -33,5 +33,4 @@ A Lightning Address looks like an email address (e.g. you@domain.com) and enable
 
 ## Pros and Cons 
 - **Strike** offers push notifications and the option to buy bitcoin, but requires KYC verification and isn't available everywhere.
-- **Coinos** is faster to get started, works in every jurisdiction, and doesn’t require KYC, but lacks the ability to buy bitcoin.
-- **Coinos** is a [PWA](https://www.google.com/search?q=how+to+add+a+pwa+to+your+home+screen+safari) and not an app, but you can add it to your Home Screen on iOS in Safari.
+- **Coinos** is faster to get started, works in every jurisdiction, and doesn’t require KYC, but lacks the ability to buy bitcoin. It's a [PWA](https://www.google.com/search?q=how+to+add+a+pwa+to+your+home+screen+safari) and not an app, but you can add it to your Home Screen on iOS in Safari.
