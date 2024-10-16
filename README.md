@@ -38,7 +38,8 @@ There are three main code files in this repository:
 
 ## Gameplay Instructions
 
-For detailed gameplay instructions, view the [Instruction Sheet](INSTRUCTIONS.md).
+- For detailed gameplay instructions, view the [instruction sheet](INSTRUCTIONS.md).
+- For help with getting a Lightning Address, check out this [quick guide](LIGHTNING.md).
 
 ## Bitcorn Hole in Your Community
 
