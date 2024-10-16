@@ -29,7 +29,7 @@ A Lightning Address looks like an email address (e.g. you@domain.com) and enable
 
 4. Tap the QR code by your username. Your Lightning Address will then appear in the format username@coinos.io.
 
-![image](https://github.com/user-attachments/assets/abbcfe5e-ca65-4b0e-8239-e6e76d9426c9)
+![image](https://i.imgur.com/B0EPZHp.png)
 
 ## Pros and Cons 
 - **Strike** offers push notifications and the option to buy bitcoin, but requires KYC verification and isn't available everywhere.
