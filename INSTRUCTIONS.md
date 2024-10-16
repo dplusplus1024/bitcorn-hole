@@ -7,7 +7,7 @@ This is **Bitcorn Hole**! Normal Cornhole rules do not apply. 🤠
 
 ## Lightning Address
 
-Here's a [comprehensive guide](LIGHTNING.md) on how to get a Lightning Address.
+Here's a [quick guide](LIGHTNING.md) on how to get a Lightning Address.
 
 ## Who Goes First?
 Determine the starting player by selecting either:
